@@ -1,0 +1,52 @@
+
+#traffic-signal {
+    height: 450px;
+    width: 180px;
+    background-color: #333;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.light {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.control-btn {
+    padding: 15px 40px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.control-btn:nth-child(1) {
+    background-color: red;
+}
+
+.control-btn:nth-child(2) {
+    background-color: green;
+}
+
+.control-btn:nth-child(3) {
+    background-color: yellow;
+    color: black;
+}
+

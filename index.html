@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Control</title>
+    <link rel="stylesheet" href="signal.css">
+</head>
+<body>
+
+    
+    <div id="traffic-signal">
+        <div id="light1" class="light"></div>
+        <div id="light2" class="light"></div>
+        <div id="light3" class="light"></div>
+    </div>
+
+    
+    <div id="controls">
+        <button class="control-btn" onclick="setRed()">Stop</button>
+        <button class="control-btn" onclick="setGreen()">Go</button>
+        <button class="control-btn" onclick="setYellow()">Wait</button>
+    </div>
+
+
+    <script src="signal.js"></script>
+
+</body>
+</html>
